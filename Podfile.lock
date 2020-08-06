@@ -1,0 +1,266 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AWSCore (2.13.4)
+  - AWSS3 (2.13.4):
+    - AWSCore (= 2.13.4)
+  - CCValidator (1.2.0)
+  - CryptoSwift (0.13.0)
+  - DLRadioButton (1.4.12)
+  - DropDown (2.3.13)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Filestack (1.5.2):
+    - Alamofire (= 4.7.3)
+    - FilestackSDK (= 1.3.0)
+    - SSZipArchive (= 2.1.4)
+  - FilestackSDK (1.3.0):
+    - Alamofire (= 4.7.3)
+    - CryptoSwift (= 0.13.0)
+  - Firebase/Core (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.6.1)
+  - Firebase/CoreOnly (6.27.0):
+    - FirebaseCore (= 6.8.0)
+  - Firebase/Messaging (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.5.0)
+  - FirebaseAnalytics (6.6.1):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.4)
+    - GoogleAppMeasurement (= 6.6.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseCore (6.8.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.4.0):
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 1.30905.0)
+  - FirebaseInstallations (1.4.0):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/Environment (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.6)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.4.0):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - FirebaseMessaging (4.5.0):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Reachability (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FloatRatingView (2.0)
+  - GoogleAppMeasurement (6.6.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (6.2.1)
+  - GoogleDataTransportCCTSupport (3.2.0):
+    - GoogleDataTransport (~> 6.1)
+    - nanopb (~> 1.30905.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.6.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - InputBarAccessoryView (4.3.2):
+    - InputBarAccessoryView/Core (= 4.3.2)
+  - InputBarAccessoryView/Core (4.3.2)
+  - IQKeyboardManagerSwift (6.5.5)
+  - KYDrawerController (2.1.0)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
+  - MessageKit (3.1.0):
+    - InputBarAccessoryView (~> 4.3.0)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PromisesObjC (1.2.9)
+  - Protobuf (3.12.0)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - SSZipArchive (2.1.4)
+  - Stripe (19.3.0)
+  - SWSegmentedControl (2.7.0)
+  - TwilioChatClient (3.1.1)
+  - TwilioVideo (3.5.0)
+
+DEPENDENCIES:
+  - AWSCore
+  - AWSS3
+  - CCValidator
+  - DLRadioButton
+  - DropDown
+  - FacebookCore
+  - FacebookLogin
+  - Filestack (~> 1.3)
+  - Firebase/Core
+  - Firebase/Messaging
+  - FloatRatingView (~> 2.0.0)
+  - GoogleSignIn (~> 5.0.0)
+  - IQKeyboardManagerSwift
+  - KYDrawerController
+  - MessageInputBar
+  - MessageKit
+  - SDWebImage
+  - Stripe
+  - SWSegmentedControl
+  - TwilioChatClient
+  - TwilioVideo (~> 3.5)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - AWSCore
+    - AWSS3
+    - CCValidator
+    - CryptoSwift
+    - DLRadioButton
+    - DropDown
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Filestack
+    - FilestackSDK
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FloatRatingView
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - KYDrawerController
+    - MessageInputBar
+    - MessageKit
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+    - SDWebImage
+    - SSZipArchive
+    - Stripe
+    - SWSegmentedControl
+    - TwilioChatClient
+    - TwilioVideo
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AWSCore: 06beea22b6bdbfe9f5ab5015c6901e8475c746a8
+  AWSS3: ab3965322c8e5ee069eaf9b3201c55557ad21be1
+  CCValidator: 19c090b536c0152863795aa291bf7be3ffccf457
+  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  Filestack: d82280e92c2bc9367c72ec5c54113a22b997cf1e
+  FilestackSDK: c1084a0cf312df96e305d7a057f6e0886b22af6d
+  Firebase: fc4cbf6f1592636431821ef9a3c557e4dfd9f268
+  FirebaseAnalytics: 0ea640473474f036cabbc2576e20c2d63671c92f
+  FirebaseCore: feda061cb1ee6d8ad4824f4a4a8ffbcfe284f595
+  FirebaseCoreDiagnostics: 4505e4d4009b1d93f605088ee7d7764d5f0d1c84
+  FirebaseInstallations: 293f567159b6d66d1c990f13bb868066096c94ec
+  FirebaseInstanceID: 3b119bfe90e904851218159c9a4ecb847cc51d18
+  FirebaseMessaging: ad9e1a80ea64905e01a0ce1b3eb76a2944544151
+  FloatRatingView: 857ab8f10040d06a42fc979f486c8f9fecd2f2e5
+  GoogleAppMeasurement: 2fd5c5a56c069db635c8e7b92d4809a9591d0a69
+  GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
+  GoogleDataTransportCCTSupport: 489c1265d2c85b68187a83a911913d190012158d
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  InputBarAccessoryView: 7985d418040a05fe894bd4b8328dd43ab35517c3
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
+  MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+  Stripe: dd5bfdd5f1daed4f9ddbfb47e9449ec302f9f708
+  SWSegmentedControl: 808ef4b80d0168799a60d8a2d322cfde7f45f46c
+  TwilioChatClient: 6862ca61d06978e9595cb5737b32206718721f47
+  TwilioVideo: 6758bbec5a6d1838caba8a917f5c7545a11652c3
+
+PODFILE CHECKSUM: c6a04797537bbb0457c8a4676bbba5e44ec1ddd2
+
+COCOAPODS: 1.8.4
